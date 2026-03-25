@@ -1,0 +1,49 @@
+{
+  "name": "uk-sic-codes",
+  "version": "1.0.0",
+  "description": "Fast, zero-dependency UK SIC 2007 code lookup, search, and validation",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "node --test test/index.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sic",
+    "sic-codes",
+    "uk",
+    "standard-industrial-classification",
+    "companies-house",
+    "business",
+    "industry",
+    "classification",
+    "ons",
+    "company"
+  ],
+  "author": "Borsch.AI <hello@borsch.ai> (https://borsch.ai)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borschai/uk-sic-codes"
+  },
+  "homepage": "https://borsch.ai",
+  "bugs": {
+    "url": "https://github.com/borschai/uk-sic-codes/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
