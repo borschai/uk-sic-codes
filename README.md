@@ -6,7 +6,10 @@ Fast, zero-dependency UK SIC 2007 code lookup, search, and validation for Node.j
 > covering 5.9M companies with AI-powered risk analysis and 50M+ government data signals.
 
 [![npm version](https://img.shields.io/npm/v/uk-sic-codes.svg)](https://www.npmjs.com/package/uk-sic-codes)
+[![PyPI version](https://img.shields.io/pypi/v/uk-sic-codes.svg)](https://pypi.org/project/uk-sic-codes/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Also available as a [Python package](https://pypi.org/project/uk-sic-codes/) (`pip install uk-sic-codes`).
 
 ## Features
 
